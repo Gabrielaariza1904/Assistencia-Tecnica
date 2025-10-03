@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    private static final String URL = "jdbc:sqlite:/Users/gabiariza/Desktop/assistenciaTecnica.sqlite";
+    private static final String URL = "jdbc:sqlite:/Users/gabiariza/Desktop/POO/GT1 - POO/assistenciaTecnica.sqlite";
 
     public static Connection getConnection() {
         try {

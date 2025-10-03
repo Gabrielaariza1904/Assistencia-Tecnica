@@ -24,6 +24,10 @@ Este projeto é um sistema de assistência técnica desenvolvido em Java, com o 
 
 - O módulo `ControleEstoque` é utilizado para buscar peças no estoque, garantindo que apenas peças disponíveis possam ser selecionadas para os serviços.
 
+## Lógica de Ordem de Serviço
+
+Ao criar uma ordem de serviço, os dados do aparelho selecionado pelo cliente também são salvos na tabela de ordem de serviço. Isso garante que cada ordem de serviço registre não apenas as peças e valores, mas também as informações do aparelho que será atendido, facilitando o controle e o histórico de manutenções para cada cliente e dispositivo.
+
 ## Estrutura do Projeto
 
 O projeto está organizado em pacotes para facilitar a manutenção e a escalabilidade, incluindo módulos para modelo de dados, controle de estoque, configuração de banco de dados e funcionalidades principais.
